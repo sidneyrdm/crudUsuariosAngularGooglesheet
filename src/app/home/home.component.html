@@ -1,0 +1,44 @@
+<div class="container" *ngIf="false">
+    <div>
+        Nome.: <input type="text" [(ngModel)]="NovoNome">
+        Email.: <input type="text" [(ngModel)]="NovoEmail">
+        <button class="btn" (click)="addUser()">Adicionar Usuário</button>
+    </div>
+
+
+
+    <div class="table">
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Ações</th>
+            </tr>
+            <tr *ngFor="let usuario of pessoas">
+                <td>{{ usuario.nome }}</td>
+                <td>{{ usuario.email }}</td>
+                <td>
+                    <button class="btn-editar" (click)="editar(usuario)">Editar</button>
+                    <button class="btn-excluir">Excluir</button>
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+
+<br>
+<br>
+<br>
+<div class="container" *ngIf="false">
+    <div class="row d-flex align-items-center justify-content-center">
+        <h1 class="text-center">Lista de personagens via API</h1>
+        <div class="col-12">
+            <app-list-api></app-list-api>
+        </div>
+    </div>
+</div>

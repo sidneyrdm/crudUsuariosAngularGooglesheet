@@ -1,0 +1,19 @@
+.btn{
+    background-color: blue;
+    color: white;
+}
+.btn-editar{
+    background-color: orange;
+    color: black;
+}
+.btn-excluir{
+    background-color: red;
+    color: black;
+}
+
+.imgs{
+    height: 140px;
+    width: 140px;
+    border: solid 1px;
+    border-radius: 30%;
+}

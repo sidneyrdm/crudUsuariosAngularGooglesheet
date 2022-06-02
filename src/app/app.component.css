@@ -1,0 +1,11 @@
+.custom{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 120px;
+}
+
+.back{
+    height: 200px;
+    background-image: url(../assets/img/homem-aranha.jfif);
+}
